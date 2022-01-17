@@ -45,7 +45,6 @@ header {
     position: absolute !important;
     top: -9999px !important;
     left: -9999px !important;
-    cursor: pointer;
 }
 
 .nav-toggle:focus ~ .nav-toggle-label {
@@ -60,6 +59,7 @@ header {
     height: 100%;
     display: flex;
     align-items: center;
+    cursor: pointer;
 }
 
 .nav-toggle-label span,
