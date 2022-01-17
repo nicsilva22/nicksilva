@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
+
 :root {
     --background: rgba(0, 214, 170, .85);
 }
 
-*{
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: border-box
@@ -10,16 +12,17 @@
 
 html {
     font-size: 16px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
     color: rgba(255, 255, 255, 0); 
 }
 
 body {
     width: 100%;
     min-height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 400;
 }
 
-/* Nav bar work */ 
+/* My Nav bar work */ 
 
 header {
     background: var(--background);
@@ -30,8 +33,14 @@ header {
 }
 
 .nav-toggle {
-    display: none;
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
 }
+
+.nav-toggle:focus ~ .nav-toggle-label {
+    outline: 3px solid rgba(lightblue, .75);
+  }
 
 .nav-toggle-label {
     position: absolute;
@@ -127,7 +136,14 @@ nav a:hover {
     }
 
     nav{
-        all: unset;
+        position: relative;
+        text-align: left;
+        transition: none;
+        transform: scale(1,1);
+        background: none;
+        top: initial;
+        left: initial;
+        
         grid-column: 3 / 4;
         display: flex;
         justify-content: flex-end;
