@@ -150,7 +150,7 @@ nav a:hover {
         top: initial;
         left: initial;
 
-        grid-column: 4 / 5;
+        grid-column: 3 / 4;
         display: flex;
         justify-content: flex-end;
         align-items: center;
