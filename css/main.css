@@ -17,6 +17,11 @@ body {
 
 .content {
     height: 200vh;
+    padding: 16px;
+    padding-left: env(safe-area-inset-left); /* Apply safe area */
+    padding-right: env(safe-area-inset-right);
+    padding-bottom: env(safe-area-inset-bottom;
+    padding-top: env(safe-area-inset-top);
     background-color: #333;
     background-blend-mode: multiply;
     background-size: cover;
