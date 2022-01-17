@@ -85,7 +85,6 @@ header {
 
 .nav-toggle-label span::after {
     top: 7px;
-    transform: rotate(45deg);
 }
 
 nav {
