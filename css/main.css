@@ -122,9 +122,9 @@ nav a:hover {
     transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media screen (min-width: 800px){
+@media screen and (min-width: 800px){
     .nav-toggle-label {
-        display:none;
+        display: none;
     }
 
     header {
@@ -143,7 +143,7 @@ nav a:hover {
         background: none;
         top: initial;
         left: initial;
-        
+
         grid-column: 3 / 4;
         display: flex;
         justify-content: flex-end;
