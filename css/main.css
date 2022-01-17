@@ -87,7 +87,7 @@ header {
     top: 7px;
 }
 
-.open .nav-toggle-label span {
+.nav-toggle-label span {
     transform: rotate(45deg);
 }
 
