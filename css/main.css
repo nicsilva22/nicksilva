@@ -87,6 +87,10 @@ header {
     top: 7px;
 }
 
+.open .nav-toggle-label span {
+    transform: rotate(45deg);
+}
+
 nav {
     position: absolute;
     text-align: left;
