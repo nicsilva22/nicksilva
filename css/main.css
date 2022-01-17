@@ -173,7 +173,7 @@ nav a:hover {
     nav a::before {
         content: '';
         display: block;
-        height: 5px;
+        height: 4px;
         background: black;
         position: absolute;
         top: -0.75em;
